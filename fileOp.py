@@ -1,0 +1,12 @@
+# fileop = open('file.txt', 'w')
+# fileop.write('This is demo for file operation')
+# fileop.close()
+import os
+filere = open('file.txt', 'r')
+str = filere.read()
+# str1 = filere.read(30)
+print(str)
+# os.rename('file1.txt', 'file.txt')
+pos = filere.tell()
+print(pos)
+filere.close()
